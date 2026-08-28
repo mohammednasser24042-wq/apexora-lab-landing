@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apexora Lab - نظام إدارة معامل الأسنان والتركيبات</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+        body { font-family: 'Cairo', sans-serif; background-color: #0b0f19; color: #f3f4f6; }
+    </style>
+</head>
+<body class="bg-[#0b0f19] text-gray-100 min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="border-b border-gray-800 bg-[#0b0f19]/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3 space-x-reverse">
+                <img src="logo.png" alt="Apexora Lab Logo" class="h-12 w-12 object-contain rounded-xl border border-purple-500/30">
+                <div>
+                    <span class="text-xl font-black tracking-wider text-white">APEXORA <span class="text-purple-400">LAB</span></span>
+                    <p class="text-xs text-gray-400">نظام إدارة معامل الأسنان والتركيبات</p>
+                </div>
+            </div>
+            <a href="#showcase" class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-5 py-2.5 rounded-xl shadow-lg shadow-purple-600/30 transition-all text-sm">
+                استعرض شاشات النظام
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+        <div class="inline-block mb-4 px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-sm font-semibold">
+            🚀 الإصدار الأحدث من APEXORA SOFTWARE
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-black tracking-tight mb-6 leading-tight">
+            التحكم الكامل لمعملك الذكي <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-500">بدقة وسرعة فائقة</span>
+        </h1>
+        <p class="max-w-3xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
+            نظام متكامل لإدارة أوردرات التركيبات، حسابات الأطباء والمرضى، تتبع مراحل التسليم، والمرفقات المرئية للحالات بدقة واحترافية تامة.
+        </p>
+        <div class="flex justify-center gap-4 flex-wrap">
+            <a href="#showcase" class="bg-purple-600 hover:bg-purple-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl shadow-purple-600/30 transition-all text-base">
+                معاينة الواجهات الحية
+            </a>
+            <a href="login.jpg" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 font-bold px-8 py-4 rounded-2xl transition-all text-base">
+                تجربة تسجيل الدخول
+            </a>
+        </div>
+    </section>
+    <!-- Showcase Gallery Section -->
+    <section id="showcase" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">جولة داخل واجهات نظام Apexora Lab</h2>
+            <p class="text-gray-400 max-w-xl mx-auto">تعرف على الإمكانيات الجبارة والشاشات المصممة خصيصاً لتسهيل إدارة العمل اليومي لمعمل الأسنان.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- 1. الرئيسية -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="apexora-lab-main-dashboard.jpg" alt="اللوحة الرئيسية" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">لوحة التحكم الرئيسية</h3>
+                    <p class="text-gray-400 text-sm">نظرة عامة وشاملة على الإيرادات، الأوردرات قيد التنفيذ، وحالة التسليم الشهرية.</p>
+                </div>
+            </div>
+
+            <!-- 2. الأطباء -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="apexora-lab-doctors-management.jpg" alt="إدارة الأطباء" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">إدارة الأطباء والحسابات</h3>
+                    <p class="text-gray-400 text-sm">متابعة الأطباء المتعاملين مع المعمل، حساباتهم، وتحديد الأكثر تعاملاً.</p>
+                </div>
+            </div>
+
+            <!-- 3. المرضى -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="apexora-lab-patients-management.jpg" alt="إدارة المرضى" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">إدارة المرضى والسجلات</h3>
+                    <p class="text-gray-400 text-sm">أرشيف كامل بأسماء المرضى، أرقام الهواتف، وتاريخ العمليات والتركيبات.</p>
+                </div>
+            </div>
+
+            <!-- 4. الخدمات -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="apexora-lab-services-management.jpg" alt="إدارة الخدمات" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">إدارة خدمات المعمل</h3>
+                    <p class="text-gray-400 text-sm">تحديد أسعار التركيبات، المدة التقديرية، والفئات المختلفة بكل سهولة.</p>
+                </div>
+            </div>
+
+            <!-- 5-8. خطوات الأوردر -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="apexora-lab-add-order-step1.jpg" alt="إضافة أوردر" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">إنشاء وإضافة الأوردرات</h3>
+                    <p class="text-gray-400 text-sm">ربط الأوردر بالطبيب والمريض وإضافة الخدمات والمرفقات المرئية (4 خطوات متكاملة).</p>
+                </div>
+            </div>
+
+            <!-- 9-12. التسليم -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="apexora-lab-delivery-overview.jpg" alt="تسليم الأوردرات" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">متابعة وتسليم الأوردرات</h3>
+                    <p class="text-gray-400 text-sm">شاشة مخصصة لإدارة التسليمات اليومية، تسوية الحسابات المتبقية، وتأكيد الدفع كاش.</p>
+                </div>
+            </div>
+
+            <!-- 13. المستخدمين -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="users.jpg" alt="إدارة المستخدمين" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">إدارة المستخدمين والصلاحيات</h3>
+                    <p class="text-gray-400 text-sm">التحكم في صلاحيات الوصول للموظفين والعاملين داخل المعمل بكل أمان.</p>
+                </div>
+            </div>
+
+            <!-- 14. الأمان وكلمة المرور -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="change-password.jpg" alt="تحديث كلمة المرور" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">تحديث كلمة المرور والأمان</h3>
+                    <p class="text-gray-400 text-sm">حماية متقدمة للحسابات مع متطلبات أمان قوية وتغيير دوري لكلمات المرور.</p>
+                </div>
+            </div>
+
+            <!-- 15-18. النسخ الاحتياطي والصيانة -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-xl hover:border-purple-500/50 transition-all">
+                <img src="backup.jpg" alt="النسخ الاحتياطي" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">النسخ الاحتياطي والصيانة</h3>
+                    <p class="text-gray-400 text-sm">حماية بياناتك بقواعد بيانات مؤمنة مع خيارات النسخ الاحتياطي، الاستعادة، وتهيئة المصنع.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Features Summary Section -->
+    <section class="py-16 bg-gray-900/50 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-8">لماذا تختار Apexora Lab لمعملك؟</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-right">
+                <div class="p-6 bg-gray-900 rounded-2xl border border-gray-800">
+                    <div class="text-purple-400 text-2xl mb-3">⚡</div>
+                    <h4 class="font-bold text-lg mb-2">سرعة وأداء عالي</h4>
+                    <p class="text-gray-400 text-sm">واجهات مبنية بعناية فائقة لتسهيل إدخال البيانات دون أي تعقيد أو بطء.</p>
+                </div>
+                <div class="p-6 bg-gray-900 rounded-2xl border border-gray-800">
+                    <div class="text-purple-400 text-2xl mb-3">🔒</div>
+                    <h4 class="font-bold text-lg mb-2">حماية وأمان تام</h4>
+                    <p class="text-gray-400 text-sm">أنظمة نسخ احتياطي متقدمة وصلاحيات مستخدمين تضمن سرية تامة لبيانات المعمل.</p>
+                </div>
+                <div class="p-6 bg-gray-900 rounded-2xl border border-gray-800">
+                    <div class="text-purple-400 text-2xl mb-3">📊</div>
+                    <h4 class="font-bold text-lg mb-2">تقارير وإحصائيات دقيقة</h4>
+                    <p class="text-gray-400 text-sm">متابعة لحظية للأرباح، الأوردرات الأكثر طلباً، وحسابات الأطباء والمرضى بدقة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 py-10 bg-[#070a12] text-center text-gray-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="mb-2 font-semibold text-gray-400">جميع الحقوق محفوظة © 2026 - <span class="text-purple-400">APEXORA SOFTWARE</span></p>
+            <p>النظام الأمثل لإدارة معامل الأسنان والتركيبات الطبية بكل احترافية.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
